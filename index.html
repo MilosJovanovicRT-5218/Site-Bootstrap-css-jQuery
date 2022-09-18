@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="početna stranica">
+    <meta name="keywords" content="modelovanje,grafički,dizajn,digitalna,agencija,popust,portfolio">
+    <meta name="author" content="Milos Jovanovic, milosrt5218@gs.viser.edu.rs">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="css/novistil.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css ">
+
+    <title>M&D - Početna</title>
+    <style type="text/css">
+/*Footer*/
+footer{
+  padding: 2rem;
+  background-color: #eee;
+  margin-top: 2rem;
+  border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
+  border-top:7px solid black;
+}
+footer a{
+  color: #66666666;
+  transition: color 0.4s ease-in;
+  padding: 0.2rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+footer p{
+  font-size: 16px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+}
+footer a:hover{
+  color: black;
+  text-decoration: none;
+}
+/*Responsive dizajn*/
+@media screen and (max-width: 1024px ){
+  p{
+    font-size: 23px;
+  }
+  h1,h2,h3,h4,h5{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 768px ){
+  .card,.row{
+    position: relative;
+    display: block;
+    width: 691px;
+    margin-bottom: 5%;
+  }  
+  #klijent{
+    width: 400px;
+    position: relative;
+   left: 58%;
+  }
+  #klijent:hover{
+    width: 450px;
+    margin-left: 5%;
+  }
+  #btnklijent{
+    margin-left: 40%;
+  }
+}
+   @media screen and (max-width: 764px ){
+  .card,.row{
+    position: relative;
+    display: block;
+    width: 510px;
+    margin-bottom: 5%;
+  }  
+  #klijent{
+    width: 400px;
+    position: relative;
+    left: 10%;
+  }
+   #klijent:hover{
+    width: 433px;
+    margin-left: 1%;
+  }
+  #btnklijent{
+    margin-left: 37%;
+  }
+}
+@media screen and (max-width: 526px ){
+  .card,.row{
+    position: relative;
+    display: block;
+    width: 410px;
+    margin-bottom: 5%;
+  }  
+  #klijent{
+    width: 400px;
+    position: relative;
+    left: 10%;
+  }
+   #klijent:hover{
+    width: 433px;
+    margin-left: 1%;
+  }
+  #btnklijent{
+    margin-left: 37%;
+  }
+}
+ @media screen and (max-width: 411px ){
+  .card,.row{
+    position: relative;
+    display: block;
+    width: 380px;
+    margin-bottom: 5%;
+  } 
+   #klijent{
+    width: 380px;
+    margin-left: 10%;
+  }
+  #klijent:hover{
+    width: 403px;
+    margin-left: 5%;
+  } 
+}
+@media screen and (max-width: 420px ){
+  .card,.row{
+    position: relative;
+    display: block;
+    width: 380px;
+    margin-bottom: 5%;
+  }  
+  #klijent{
+    width: 300px;
+    position: relative;
+    left: 12%;
+  }
+   #klijent:hover{
+    width: 320px;
+    margin-left: 1%;
+  }
+  #btnklijent{
+    margin-left: 33%;
+  }
+}
+@media screen and (max-width: 375px ){
+  .card,.row{
+    position: relative;
+    display: block;
+    width: 345px;
+    margin-bottom: 5%;
+  }  
+  #klijent{
+    width: 300px;
+    position: relative;
+    left: 7%;
+  }
+   #klijent:hover{
+    width: 320px;
+    margin-left: 1%;
+  }
+  #btnklijent{
+    margin-left: 30%;
+  }
+}
+@media screen and (max-width: 360px ){
+ .card,.row{
+    position: relative;
+    display: block;
+    width: 330px;
+    margin-bottom: 5%;
+  }  
+  #btnklijent{
+    margin-left: 30%;
+  }
+  #klijent{
+    width: 270px;
+    position: relative;
+    left: 30px;
+  }
+  #klijent:hover{
+    width: 290px;
+    position: relative;
+    left: 25px;
+  }
+}
+@media screen and (max-width: 330px ){
+  .card,.row{
+    position: relative;
+    display: block;
+    width: 290px;
+    margin-bottom: 5%;
+  }  
+  #klijent{
+    width: 270px;
+    position: relative;
+    left: 10px;
+  }
+  #klijent:hover{
+    width: 290px;
+    position: relative;
+    left: 2px;
+  }
+  #btnklijent{
+    margin-left: 28%;
+  }
+}
+@media screen and (max-width: 280px ){
+  .card,.row{
+    position: relative;
+    display: block;
+    width: 290px;
+    margin-bottom: 5%;
+  }  
+  #klijent{
+    width: 270px;
+    position: relative;
+    left: 10px;
+  }
+  #klijent:hover{
+    width: 290px;
+    position: relative;
+    left: 2px;
+  }
+  #btnklijent{
+    margin-left: 28%;
+  }
+}
+@media screen and (max-width: 290px ){
+ .card,.row{
+    position: relative;
+    display: block;
+    width: 255px;
+    margin-bottom: 5%;
+  } 
+  #klijent{
+    width: 240px;
+    position: relative;
+    left: 3%;
+  } 
+  #klijent:hover{
+    width: 260px;
+    margin-left: -1%;
+  } 
+  #btnklijent{
+    margin-left: 23%;
+  }
+}
+/*Klijenti*/
+ #klijent{
+  padding: 10px;
+    transition: transform 1s;
+    margin: 0 auto;
+ }
+ #klijent:hover{
+    transform: scale(1.2);
+ }
+ /*Drustvene mreze*/
+ #dm{
+padding: 3px;
+    transition: transform 1s;
+    margin: 0 auto;
+ }
+#dm:hover{
+  transform: scale(1.2);
+}
+
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="border-bottom-right-radius: 33px; border-bottom-left-radius:33px; border-bottom:7px solid black;">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.jpg" width="100px" height="50px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto ml-5">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Početna <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="onama.html">O nama</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galerija.html">Galerija</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Usluge</a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="vebdizajn.html">Web dizajn</a>
+              <a class="dropdown-item" href="grafickidizajn.html">Graficki dizajn</a>
+              <a class="dropdown-item" href="3dmodelovanje.html">3D Modelovanje</a>
+            </div>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="kontakt.html">Kontakt</a>
+           </li>
+        </ul>
+      <div class="d-flex bd-highlight" >
+           
+            <a  class="p-2 flex-fill bd-highlight" href="https://www.facebook.com/agencija.mid.9" target="_blank" style="color:#0066ff;"><i id="dm" class="fab fa-facebook-square fa-3x"></i></a>
+          
+            <a class="p-2 flex-fill bd-highlight" href="https://twitter.com/DDigitalna" target="_blank" style="color:#33ccff;"><i id="dm" class="fab fa-twitter-square fa-3x"></i></a>
+  
+            <a class="p-2 flex-fill bd-highlight" href="https://www.instagram.com/agencija.mid/" target="_blank" style=" color: #cc00cc;"><i id="dm" class="fab fa-instagram-square fa-3x"></i></a>
+            
+            <a class="p-2 flex-fill bd-highlight" href="https://github.com/DigitalAgency-DandM" target="_blank" style=" color: black;"><i id="dm" class="fab fa-github-square fa-3x"></i></a>
+        
+        </div>
+      </nav>
+      <br>
+    <div>
+      <img src="img/pocslika4.jpg" alt="Glavna Slika" class="img-fluid" id="img">
+    </div>
+      <br>
+        <div class="container">
+          <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+           <div class="row">
+              <div class="col-6 col-md-4">
+                <div class="card">
+                  <img src="img/modelovanje2.jpg" class="card-img-top" alt="3D Modelovanje">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">3D Modelovanje</h5>
+                    <p class="card-text">3D modeliranje je proces kreiranja matematičke reprezentacije nekog trodimenzionalnog objekta. Ono što nastane naziva se 3D modelom.</p>
+                    <a href="3dmodelovanje.html" class="btn btn-outline-dark">Detaljnije &#10148;</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-4">
+                <div class="card">
+                  <img src="img/usluga3.jpg" class="card-img-top" alt="Web dizajn">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Web dizajn</h5>
+                    <p class="card-text">Izrada unikatnih web sajtova profesionalnog izgleda za bilo koju oblast poslovanja.Svi sajtovi se izrađuju na najnovijim tehnologijama.</p>
+                    <a href="vebdizajn.html" class="btn btn-outline-dark" id="dugmesredina">Detaljnije &#10148;</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-4">
+                <div class="card">
+                  <img src="img/usluga2.jpg" class="card-img-top" alt="Grafički dizajn">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">Grafički dizajn</h5>
+                    <p class="card-text">Izrada jedinstvenih i profesionalnih grafičkih rešenja i njihova primena za štampu na bilo kom materijalu koji Vam je potreban.</p>
+                    <a href="grafickidizajn.html" class="btn btn-outline-dark" id="dugmedesno">Detaljnije &#10148;</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+<br>
+    <section id="info">
+      <div class="container">
+        <div class="card mb-3">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/logo.jpg" class="card-img" alt="logo">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">M&D - Digitalna agencija </h5>
+              <p class="card-text" id="txt">Digitalna agencija M&D više od 5 godina zajedno sa svojim klijentima radi na unapređivanju poslovanja u novim uslovima digitalne revolucije.Nama je u fokusu stvaranje unapređenog i pozitivnog iskustva pre nego prosta izrada rešenja bilo  da se radi o sajtu , online marketingu, vozualnom identitetu kompanije ili štampanom promotivnom materijalu kompanije.</p>
+              <a href="onama.html" class="btn btn-outline-dark">Više o nama &#10148;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <br>
+    </section>
+      <section id="promo">
+        <div class="container">
+         <div class="card mb-3">
+          <div class="row no-gutters">
+           <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Promo January - Na sve usluge popust do 20%</h5>
+              <p class="card-text">Povodom nove godine i svih praznika nudimo vam popust na sve usluge.Pritiskom na dugme <strong> Detaljnije </strong>možete videti o čemu se radi.</p>
+              <a href="popust.html" class="btn btn-outline-dark">Detaljnije &#10148;</a>
+              <p class="card-text"><small class="text-muted">Ponuda važi do kraja meseca !!!</small></p>
+            </div>
+            </div>
+          <div class="col-md-4">
+            <img src="img/macbook.jpg" class="card-img" alt="Popust Slika">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<br>
+<section id="promo">
+      <div class="container">
+      <div class="card mb-2">
+        <div class="row no-gutters">
+          <div class="col-md-12">
+            <br>
+              <h5 class="text-center">Pogeldajte ko nam je sve ukazao poverenje</h5>
+            </div>
+          <div class="col-md-4">
+            <a href="http://zedex.co.rs/" target="_blank"><img src="img/klijent1.png" class="card-img" id="klijent" alt="Zedex Klijent"></a>
+          </div>
+          <div class="col-md-4">
+            <a href="https://masterbc.co.rs/" target="_blank"><img src="img/klijent2.png" class="card-img" id="klijent" alt="Master CCTV Centar Klijent"></a>
+          </div>
+          <div class="col-md-4">
+            <a href="https://encimenci.com/" target="_blank"><img src="img/klijent3.png" class="card-img" id="klijent" alt="Enci Menci Klijent"></a>
+          </div>
+        </div>
+        <a class="btn btn-outline-dark btn-lg" href="klijenti.html" id="btnklijent">Detaljnije &#10148;</a>
+        <br>
+        <br>
+      </div>
+    </div>
+  </section>
+    <br>
+  <section id="portfolio">
+    <div class="container">
+      <div class="jumbotron text-center">
+        <h1 class="display-4">Portfolio</h1>
+        <p class="lead">Uskoro sarađujemo sa klijentima u nastojanju da svaka naša usluga ispunjava njihove pojedinačne ciljeve i potrebe, a pri tome se trudimo da izrazimo jedinstvenu osobinu i stil klijenta kroz njegovu prisutnost na webu.</p>
+        <hr class="my-4">
+        <p>Pogledajte deo našeg portfolija.</p>
+        <br>
+         <a class="btn btn-outline-dark btn-lg" href="portfolio.html">&#10148;</a>
+      </div>
+    </div>
+  </section>
+<footer>
+    <div class="row text-center">
+      <div class="col-12">
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="onama.html">O nama</a></li>
+          <li class="list-inline-item"><a href="cenovnik.html">Cenovnik</a>
+           <li class="list-inline-item"><a href="faq.html">Česta pitanja</a></li>
+          <li class="list-inline-item"><a href="kontakt.html">Kontakt</a></li>
+          <li class="list-inline-item"><a href="mapasajta.html">Mapa Sajta</a></li>
+        </ul>
+        <p><i class="far fa-copyright"></i>
+          2020 M&D, Jasenička 10, Veliko Orašje,<a href="mailto:digitalagencymid@gmail.com">d&m@gmail.com,</a>
+          <a href="tel:064/5116913">064/5116913</a></p>
+      </div>
+    </div>
+</footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" 
+    crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
