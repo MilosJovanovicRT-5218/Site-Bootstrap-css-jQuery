@@ -1,3 +1,3 @@
-# WebSite-Bootstrap-css-jQuery
+# WebSite-Bootstrap-CSS-jQuery
 
 HTML,CSS,Bootstrap,jQuery
